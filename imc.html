@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Seção de onde estará o título e a tabela com os dados IMC -->
+  <section class="container">
+    <h1 style="text-align:center">IMC - Índice de massa corporal</h1>
+    <table style="width: 100%; text-align: left;">
+        <tr>
+            <th>IMC</th>
+            <th>Resultado</th>
+        </tr>
+        <tr>
+            <td>18,5</td>
+            <td>Baixo peso</td>
+        </tr>
+        <tr>
+            <td>18,5 a 24,9</td>
+            <td>Peso normal</td>
+        </tr>
+        <tr>
+            <td>25,0 a 29,9</td>
+            <td>Excesso de peso</td>
+        </tr>
+        <tr>
+            <td>30,0 a 34,9</td>
+            <td>Obesidade de Classe 1</td>
+        </tr>
+        <tr>
+            <td>35,0 a 39,9</td>
+            <td>Obesidade de Classe 2</td>
+        </tr>  
+        <tr>
+            <td>≥ 40,0</td>
+            <td>Obesidade de Classe 3</td>
+        </tr>   
+    </table>
+    </div>
+
+    <!-- definição dos campos para inserção de dados -->
+    <div>
+        <h2 style="text-align: center;">Calcule seu IMC:</h2>
+            <!-- formulario init -->
+            <form class="form" id="formul">
+                <label>Altura:</label>
+                <input class="altura" type="text" placeholder="Digite sua altura em metros..."/>
+                <label>Peso:</label>
+                <input class="peso" type="text" placeholder="Digite seu peso em quilos..."/>
+                <button class="button">Calcule o IMC</button>
+            </form>
+            <!-- formulário fim -->
+
+
+<!-- entrega dos resultados -->
+    <h4 class="result" style="text-align: center;"></h4>
+
+    <!-- imagem de resultado -->
+    <div class="imagem">
+
+    </div>
+    <!-- lição de moral do resultado. -->
+    <p class="licao"></p>
+
+
+
+    </div>
+
+
+
+
+
+
+</section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
